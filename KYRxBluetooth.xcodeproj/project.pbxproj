@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DEE0301E8BD54000AD127C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DEE02F1E8BD53F00AD127C /* AppDelegate.swift */; };
+		84DEE0321E8BD54000AD127C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DEE0311E8BD54000AD127C /* ViewController.swift */; };
+		84DEE0351E8BD54000AD127C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DEE0331E8BD54000AD127C /* Main.storyboard */; };
+		84DEE0371E8BD54000AD127C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DEE0361E8BD54000AD127C /* Assets.xcassets */; };
+		84DEE03A1E8BD54000AD127C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DEE0381E8BD54000AD127C /* LaunchScreen.storyboard */; };
+		84DEE0431E8BD5C000AD127C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DEE0421E8BD5C000AD127C /* UIKit.framework */; };
+		84DEE0451E8BD5C600AD127C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DEE0441E8BD5C600AD127C /* Foundation.framework */; };
+		84DEE0471E8BD65D00AD127C /* KYBluetoothState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DEE0461E8BD65D00AD127C /* KYBluetoothState.swift */; };
+		84DEE0491E8BD6B300AD127C /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DEE0481E8BD6B300AD127C /* CoreBluetooth.framework */; };
+		84DEE04B1E8BD6E200AD127C /* KYCBCentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DEE04A1E8BD6E200AD127C /* KYCBCentralManager.swift */; };
+		84DEE04D1E8BD99000AD127C /* KYCBPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DEE04C1E8BD99000AD127C /* KYCBPeripheral.swift */; };
+		84DEE04F1E8BDA2100AD127C /* KYBluetoothClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DEE04E1E8BDA2100AD127C /* KYBluetoothClient.swift */; };
+		84DEE0511E8BDAF500AD127C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DEE0501E8BDAF500AD127C /* RxSwift.framework */; };
+		84DEE0531E8BDAFB00AD127C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DEE0521E8BDAFB00AD127C /* RxCocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84DEE02C1E8BD53F00AD127C /* KYRxBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYRxBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DEE02F1E8BD53F00AD127C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84DEE0311E8BD54000AD127C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84DEE0341E8BD54000AD127C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DEE0361E8BD54000AD127C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DEE0391E8BD54000AD127C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84DEE03B1E8BD54000AD127C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DEE0421E8BD5C000AD127C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84DEE0441E8BD5C600AD127C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84DEE0461E8BD65D00AD127C /* KYBluetoothState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYBluetoothState.swift; sourceTree = "<group>"; };
+		84DEE0481E8BD6B300AD127C /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		84DEE04A1E8BD6E200AD127C /* KYCBCentralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCBCentralManager.swift; sourceTree = "<group>"; };
+		84DEE04C1E8BD99000AD127C /* KYCBPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCBPeripheral.swift; sourceTree = "<group>"; };
+		84DEE04E1E8BDA2100AD127C /* KYBluetoothClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYBluetoothClient.swift; sourceTree = "<group>"; };
+		84DEE0501E8BDAF500AD127C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		84DEE0521E8BDAFB00AD127C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DEE0291E8BD53F00AD127C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DEE0511E8BDAF500AD127C /* RxSwift.framework in Frameworks */,
+				84DEE0491E8BD6B300AD127C /* CoreBluetooth.framework in Frameworks */,
+				84DEE0451E8BD5C600AD127C /* Foundation.framework in Frameworks */,
+				84DEE0531E8BDAFB00AD127C /* RxCocoa.framework in Frameworks */,
+				84DEE0431E8BD5C000AD127C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DEE0231E8BD53F00AD127C = {
+			isa = PBXGroup;
+			children = (
+				84DEE02E1E8BD53F00AD127C /* KYRxBluetooth */,
+				84DEE02D1E8BD53F00AD127C /* Products */,
+				84DEE0411E8BD5BF00AD127C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84DEE02D1E8BD53F00AD127C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DEE02C1E8BD53F00AD127C /* KYRxBluetooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DEE02E1E8BD53F00AD127C /* KYRxBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				84DEE02F1E8BD53F00AD127C /* AppDelegate.swift */,
+				84DEE0311E8BD54000AD127C /* ViewController.swift */,
+				84DEE0331E8BD54000AD127C /* Main.storyboard */,
+				84DEE0361E8BD54000AD127C /* Assets.xcassets */,
+				84DEE0381E8BD54000AD127C /* LaunchScreen.storyboard */,
+				84DEE03B1E8BD54000AD127C /* Info.plist */,
+				84DEE0461E8BD65D00AD127C /* KYBluetoothState.swift */,
+				84DEE04A1E8BD6E200AD127C /* KYCBCentralManager.swift */,
+				84DEE04C1E8BD99000AD127C /* KYCBPeripheral.swift */,
+				84DEE04E1E8BDA2100AD127C /* KYBluetoothClient.swift */,
+			);
+			path = KYRxBluetooth;
+			sourceTree = "<group>";
+		};
+		84DEE0411E8BD5BF00AD127C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84DEE0521E8BDAFB00AD127C /* RxCocoa.framework */,
+				84DEE0501E8BDAF500AD127C /* RxSwift.framework */,
+				84DEE0481E8BD6B300AD127C /* CoreBluetooth.framework */,
+				84DEE0441E8BD5C600AD127C /* Foundation.framework */,
+				84DEE0421E8BD5C000AD127C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DEE02B1E8BD53F00AD127C /* KYRxBluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DEE03E1E8BD54000AD127C /* Build configuration list for PBXNativeTarget "KYRxBluetooth" */;
+			buildPhases = (
+				84DEE0281E8BD53F00AD127C /* Sources */,
+				84DEE0291E8BD53F00AD127C /* Frameworks */,
+				84DEE02A1E8BD53F00AD127C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYRxBluetooth;
+			productName = KYRxBluetooth;
+			productReference = 84DEE02C1E8BD53F00AD127C /* KYRxBluetooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DEE0241E8BD53F00AD127C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					84DEE02B1E8BD53F00AD127C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84DEE0271E8BD53F00AD127C /* Build configuration list for PBXProject "KYRxBluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DEE0231E8BD53F00AD127C;
+			productRefGroup = 84DEE02D1E8BD53F00AD127C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DEE02B1E8BD53F00AD127C /* KYRxBluetooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DEE02A1E8BD53F00AD127C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DEE03A1E8BD54000AD127C /* LaunchScreen.storyboard in Resources */,
+				84DEE0371E8BD54000AD127C /* Assets.xcassets in Resources */,
+				84DEE0351E8BD54000AD127C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DEE0281E8BD53F00AD127C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DEE04B1E8BD6E200AD127C /* KYCBCentralManager.swift in Sources */,
+				84DEE04F1E8BDA2100AD127C /* KYBluetoothClient.swift in Sources */,
+				84DEE0471E8BD65D00AD127C /* KYBluetoothState.swift in Sources */,
+				84DEE0321E8BD54000AD127C /* ViewController.swift in Sources */,
+				84DEE04D1E8BD99000AD127C /* KYCBPeripheral.swift in Sources */,
+				84DEE0301E8BD54000AD127C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84DEE0331E8BD54000AD127C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DEE0341E8BD54000AD127C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DEE0381E8BD54000AD127C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DEE0391E8BD54000AD127C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DEE03C1E8BD54000AD127C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84DEE03D1E8BD54000AD127C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DEE03F1E8BD54000AD127C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = KYRxBluetooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangyang.KYRxBluetooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84DEE0401E8BD54000AD127C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = KYRxBluetooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangyang.KYRxBluetooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DEE0271E8BD53F00AD127C /* Build configuration list for PBXProject "KYRxBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DEE03C1E8BD54000AD127C /* Debug */,
+				84DEE03D1E8BD54000AD127C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DEE03E1E8BD54000AD127C /* Build configuration list for PBXNativeTarget "KYRxBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DEE03F1E8BD54000AD127C /* Debug */,
+				84DEE0401E8BD54000AD127C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DEE0241E8BD53F00AD127C /* Project object */;
+}
